@@ -23,7 +23,7 @@ h3{
 .nav-bar
 {
     position:fixed;
-    width: 100%;
+    width:100% ;
     height: 85px;
     background-color:rgba(255, 72, 0, 0.973);
     border-color:darkslategray;
@@ -44,7 +44,7 @@ h3{
   .hdimg
   {
     position: relative;
-    left: 1230px;
+    left: 90%;
     bottom:108px;
     width: 75px;
     height: 75px;
@@ -54,6 +54,7 @@ h3{
   .link-bar i{
     display: inline;
     text-align: right;
+  
   }
 
 /*ANIMATED CLOUDS*/     
@@ -169,8 +170,9 @@ figure
 /*HTML5 ICON*/
  .fa-html5
 {
- 
-  right:50%;
+ position: absolute;
+  top:25%;
+  left:65%;
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
@@ -186,7 +188,9 @@ figure
 /*CSS3 ICON*/
 .body .fa-css3
 {
-  
+  position: absolute;
+  top:35%;
+  left:65%;
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
@@ -284,12 +288,12 @@ input[type=text]{
 .body{
     min-height: 200vh;
     height: auto;
-    max-width: 600px;
+    max-width: 100%;
     background-image: url(../img/backart.jpg);
     background-color:black;
     background-size: 100% 100%;
     background-attachment: fixed;
-    
+    margin: 0px;    
 }
 .foot{
    
