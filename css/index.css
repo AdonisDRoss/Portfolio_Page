@@ -87,7 +87,7 @@ h3{
     
     position: absolute;
     top: 35%;
-    left: 35%;
+    left: 30%;
     width: 450px;
     height:500px;
     background-color:#FFA500 ;
@@ -164,7 +164,7 @@ figure
   position: inherit;
   top: 35%;
   width:auto ;
-  right:25%;
+  right:30%;
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
@@ -183,7 +183,7 @@ figure
   position: inherit;
   top: 43%;
   width:auto ;
-  right:24.8%;
+  right:29.5%;
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
