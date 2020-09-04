@@ -161,17 +161,17 @@ figure
 /*HTML5 ICON*/
 .body .clouds .fa-html5
 {
-  position: fixed;
-  top: 27%;
+  position: inherit;
+  top: 35%;
   width:auto ;
-  right:8%;
+  right:25%;
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
   text-decoration: inherit;
   color: orangered;
   font-size: 90px;  
-  text-shadow: 0 0 15px #000;
+  text-shadow: 5px 5px 15px #000;
   z-index: 1;
 }
 
@@ -180,17 +180,17 @@ figure
 /*CSS3 ICON*/
 .body .clouds .fa-css3
 {
-  position: fixed;
-  top: 48%;
+  position: inherit;
+  top: 43%;
   width:auto ;
-  right:9%;
+  right:24.8%;
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
   text-decoration: inherit;
   color:green;
-  font-size: 90px;  
-  text-shadow: 0 0 15px #000;
+  font-size: 80px;  
+  text-shadow: 5px 5px 15px #000;
   z-index: 1;
 }
 
