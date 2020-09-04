@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<html>
+	<link href = "css\index.css" rel ="stylesheet" type = "text/css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<nav class = "nav-bar" >&nbsp;&nbsp;
+	<i  class="fa fa-twitter fa-lg"></i>
+	<i class="fa fa-facebook fa-lg"></i>
+	<I class="fa fa-instagram fa-lg" ></i>
+	<i class="fa fa-github fa-lg"></i>
+	<i class="fa fa-linkedin fa-lg" ></i>
+	<i  class="fa fa-codepen fa-lg"></i>
+	<h3>Jr. Web Developemer: Adonis D. Ross</h3>
+	<div class="link-bar">
+	<a href = contact-form-handler.php></a>
+	<img class="hdimg" src="img\myhead.jpg">
+</nav>
+</div>
+		<div>
+
+	<script src="index.js"></script>
+	
+	
+</head>	
+
+</div>
+<body class="body" >
+	<div class="clouds">
+		<i class="fa-html5" style="font: size 58;px"></i>
+		<i class = "fa-css3" style="font-size: 62px"></i>
+<img src="img\cloud1.png" style="--i:1">
+		<img src="img\cloud2.png" style="--i:2">
+		<img src="img\cloud3.png" style="--i:3">
+		<img src="img\cloud4.png" style="--i:4">
+		<img src="img\cloud5.png" style="--i:5">
+	
+</div>
+
+
+</div>
+	<div class="card" >
+		<div class="row">
+		  <div class="column" onclick="openTab('b1');" style="background:orangered;">
+			Developement
+		  </div>
+		  <div class="column" onclick="openTab('b2');" style="background:orangered;">
+			About
+		  </div>
+		  <div class="column" onclick="openTab('b3');" style="background:orangered;">
+			Contact
+		  </div>
+		</div>
+		<div id="b1" class="containerTab" style="display:none;background:palegoldenrod">
+			<span class ="tab" onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+			<span class ="grid">
+			
+			
+			<h2>Developement</h2>
+			
+			
+			<div class="pics">
+				
+				
+			<figure><p> <img src="img\Cert.png"  class= "cert"></p>
+			<figcaption> <a href ="https://www.freecodecamp.org/certification/adonis_d_ross/responsive-web-design">F.C.C. certification</a></figcaption></figure>
+			<figure><p><img src="img\Untitled.png" class="cal"></p>
+			<figcaption> <a href="https://codepen.io/adonisdross/pen/XWdeJgP">CACULATOR PROJECT</a></figcaption></figure>
+			<figure><p> <img src="img\AEW.png"  class="aew"></p>
+			<figcaption><a href ="https://codepen.io/adonisdross/pen/LYNbpEV">AEW MOCK UP PAGE</a></figcaption></figure>
+		</div>
+			<footer class="base">
+			</span>
+		</footer>
+		  </div>
+		  
+		  <div id="b2" class="containerTab" style="display:none;background:palegoldenrod">
+			<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+			<h2>About</h2>
+			<p>Hello, I'm Adonis D. Ross.
+				<br> I'm 35 and recently made the decision to make a career change.
+				<br> I've earned certification in Responsive Web Design and currently am pursuing certification in JavaScript and React, along with some other frameworks.
+				<br> My best friend who is a Sr Software Engineer pushed me to code and now that I am i find it amazing.
+				<br> I love discovering solutions to new problems I love how dynamic it all is mostly.
+				<br> I would love the opportunity to speak more and hopefully find a place and a team that I can grow with.</p>
+			
+		</div>
+		  
+		  <div id="b3" class="containerTab" style="display:none;background:palegoldenrod">
+			<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+			<h2>Contact Me</h2>
+			
+		
+			<form class="contact"  method=”post” name=”contact_form” action=”contact-form-handler.php”> Your Name:<br> 
+				<input placeholder="Enter Your Name" type=”text” name=”name”>
+				
+				<br>Email Address:<br>
+				
+				<input  type=”text” placeholder="Please Enter Your Email" name=”email”> <br>Message:
+				
+				<textarea placeholder="Enter Your Message Here" name=”message”></textarea>
+				
+				<input type="submit" value="Submit"><br>
+				</form>
+				
+		  </div></div>
+	
+			<script language="JavaScript">
+			// Code for validating the form
+			// Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+			// for details
+			var frmvalidator  = new Validator("contact");
+			frmvalidator.addValidation("name","req","Please provide your name"); 
+			frmvalidator.addValidation("email","req","Please provide your email"); 
+			frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+			</script>
+	</div>
+	<footer class="foot">
+		
+	</footer>
+</body>
+
+</html>
