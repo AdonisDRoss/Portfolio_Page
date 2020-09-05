@@ -5,13 +5,14 @@
 <html>
 	<link href = "css\index.css" rel ="stylesheet" type = "text/css">
 	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<nav class = "nav-bar" >&nbsp;&nbsp;
 	<i  class="fa fa-twitter fa-lg"></i>
 	<i class="fa fa-facebook fa-lg"></i>
-	<I class="fa fa-instagram fa-lg" ></i>
+	<i class="fa fa-instagram fa-lg" ></i>
 	<i class="fa fa-github fa-lg"></i>
 	<i class="fa fa-linkedin fa-lg" ></i>
 	<i  class="fa fa-codepen fa-lg"></i>
@@ -21,7 +22,7 @@
 	<img class="hdimg" src="img\myhead.jpg">
 </nav>
 </div>
-		<div>
+		<div></div>
 
 	<script src="index.js"></script>
 	
@@ -30,23 +31,26 @@
 
 </div>
 <body class="body" >
+	<div style="float:right"class = logo>
+		<i class="fa-html5" ></i>
+		<i class = "fa-css3" ></i><div>
+	</div>	
 		<div class="clouds">
-
+			
 <img src="img\cloud1.png" style="--i:1">
 		<img src="img\cloud2.png" style="--i:2">
 		<img src="img\cloud3.png" style="--i:3">
 		<img src="img\cloud4.png" style="--i:4">
 		<img src="img\cloud5.png" style="--i:5">
+		
 	
 </div>
 
 
-</div><div class = logo>
-	<i class="fa-html5" ></i>
-	<i class = "fa-css3" ></i>
-
+</div>
 
 	<div class="card" >
+	
 		<div class="row">
 		  <div class="column" onclick="openTab('b1');" style="background:orangered;">
 			Developement
@@ -61,8 +65,7 @@
 		<div id="b1" class="containerTab" style="display:none;background:palegoldenrod">
 			<span class ="tab" onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
 			<span class ="grid">
-			
-			
+						
 			<h2>Developement</h2>
 			
 			
@@ -109,18 +112,15 @@
 				
 				<input type="submit" value="Submit"><br>
 				</form>
-				
-			</div>		  </div></div>
-	
-			<script language="JavaScript">
-			// Code for validating the form
-			// Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
-			// for details
-			var frmvalidator  = new Validator("contact");
-			frmvalidator.addValidation("name","req","Please provide your name"); 
-			frmvalidator.addValidation("email","req","Please provide your email"); 
-			frmvalidator.addValidation("email","email","Please enter a valid email address"); 
-			</script>
+		
+				<script language="JavaScript">
+					var frmvalidator  = new Validator("contact");
+					frmvalidator.addValidation("name","req","Please provide your name"); 
+					frmvalidator.addValidation("email","req","Please provide your email"); 
+					frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+					</script>	
+		</div></div>
+		
 	</div>
 	<footer class="foot">
 		
