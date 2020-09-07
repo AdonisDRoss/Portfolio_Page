@@ -158,41 +158,44 @@ h3
 {
    position: flex;
     margin: 20px;
-    width: 350%;
-    height:500%;
+    width: 35%;
+    height:50%;
     background-color:#FFA500 ;
     height:100vh; 
     opacity: 0.8;
     border-color: black;
     border-width: 1px;
     flex-shrink: 3;
+  
     z-index: 2;
 }
 
 /*Card's Header*/
 .row
 {
+  
   display:inline-flex;
-  width: 100%;
+  width: 100%;  
   overflow-x: auto;  
 }
 /*AFTER CARD */
 .containerTab 
 {
+  display: flex;
   margin: auto;
   padding: 5px;
   color: rgb(85, 49, 49);
   position: inherit;
-  width: 350%;
-    height:600%;
-  overflow: auto;      
+  width: 95%;
+  height:89%;
+  
 
 }
 
 /*DEV PHOTOS & LINKS*/
 .pics 
 { 
-  display: grid;
+ 
   grid-template-columns: auto auto;
   font-family: fantasy;
   font-weight: bold;
@@ -215,20 +218,21 @@ figure
   
   text-align: left;
   font-style: bold;
-  font-size: 15px;
+  font-size: 20px;
   text-indent: 3;
   position: flex;
     overflow-y: scroll;
     overflow-x:hidden;
-    width: 350%;
-    height:100%;
+    width: 16%;
+    height: 450px;
+    scrollbar-color: orange;
 }
 
 /*CERTIFICATION PIC*/
 .containerTab .cert
 {
-  width: 40%; 
-  height: 60%; 
+  width: 95%;
+    height:89%; 
   border: solid rgb(117, 59, 59) 2px;
   position: flex;
 }
@@ -236,8 +240,8 @@ figure
 /*AEW  PIC*/
 .containerTab .aew
 {
-  width: 40%; 
-  height: 60%; 
+  width: 95%;
+    height:89%; 
   border: solid black 3px;
   position: flex;
 }
@@ -245,8 +249,8 @@ figure
 /*CALCULATOR PIC*/
 .containerTab .cal
 {
-  width: 40%; 
-  height: 60%; 
+  width: 95%;
+    height:89%; 
   position: flex;
   border: solid black 2px;
 }
@@ -256,7 +260,7 @@ figure
     
     width: inherit;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
     color: white;
     border:solid;
