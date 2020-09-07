@@ -148,7 +148,7 @@ h3
   justify-content: center;
   background-color:transparent;
   flex-shrink: 1;
-
+  overflow: auto;
 }
 /*CONTENT CARD*/
 .card
@@ -170,11 +170,8 @@ h3
 .row
 {
   display:inline-flex;
-width: 100%;
-
-flex-shrink: 3;
-
-  
+  width: 100%;
+  overflow-x: auto;  
 }
 /*AFTER CARD */
 .containerTab 
@@ -185,7 +182,7 @@ flex-shrink: 3;
   position: inherit;
   width: 34vw;
   height:610px;
-  overflow: hidden;      
+  overflow: auto;      
 
 }
 
@@ -203,42 +200,51 @@ flex-shrink: 3;
   color: black;
   z-index: 1;
   flex-shrink: 5;
+  overflow:auto;
 }
 /*IMAGE TEXT AND LINKS*/
 figure 
 {
+
+ 
+ 
+  background-color:transparent;
   
-  height:140px;
-  float: left;
   text-align: left;
   font-style: bold;
   font-size: 15px;
   text-indent: 3;
+  position: flex;
+    overflow-y: scroll;
+    overflow-x:hidden;
+    width: 30vw;
+    height:300px;
 }
 
 /*CERTIFICATION PIC*/
 .containerTab .cert
 {
-  width: 150px; 
-  height: 100px; 
-  border: solid black 2px;
-  
+  width: 40%; 
+  height: 60%; 
+  border: solid rgb(117, 59, 59) 2px;
+  position: flex;
 }
 
 /*AEW  PIC*/
 .containerTab .aew
 {
-  width: 150px; 
-  height: 100px; 
+  width: 40%; 
+  height: 60%; 
   border: solid black 3px;
+  position: flex;
 }
 
 /*CALCULATOR PIC*/
 .containerTab .cal
 {
-  width: 100px; 
-  height: 100px; 
-  position: grid;
+  width: 40%; 
+  height: 60%; 
+  position: flex;
   border: solid black 2px;
 }
  /*card header text and shape*/
