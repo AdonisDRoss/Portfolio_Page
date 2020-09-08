@@ -194,8 +194,9 @@ h3
 .figure 
 {
   display: flex;
-  flex-wrap: wrap;
-  
+
+  width: inherit;
+  height: 104vh;
 
   justify-content: space-evenly;
   
