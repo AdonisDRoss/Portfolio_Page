@@ -148,92 +148,100 @@ h3
   
   position: center;
   display: flex;
-  align-items: center;
+  
   justify-content: center;
-  background-color:transparent;
-  flex-shrink: 1;
-  overflow: auto;
+  
+  
 }
 /*CONTENT CARD*/
 .card
 {
-
-   position: absolute;
+    justify-items: stretch;
+    position: flex;
     margin: 20px;
-    width: 35%;
-    background-color:#FFA500 ;
-    height:100vh; 
-    opacity: 0.8;
-    border-color: black;
-    border-width: 2px;
-    flex-shrink: 3;
   
+    width: 600px;
+    background-color:#FFA500 ;
+    height:110vh; 
+    opacity: 0.8;
+    border: 2px outset black;
     z-index: 2;
 }
 .containerTab{
+  
+  display: flex;
   background-color:transparent;
-  height: 100%;
-  width: 100%;
-  flex-shrink: 3;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: inherit;
+  height: 104vh;
 }
 /*Card's Header*/
 .row
 {
+  display: flex;
+  flex-flow:column wrap;
+ flex-direction: row;
+  background-color: orangered;
+  justify-content: space-around;
   
-  display:inline-flex;
-  width: 100%;  
-  overflow-x: auto;  
+  
 }
 
 
 /*IMAGE TEXT AND LINKS*/
 .figure 
 {
+  display: flex;
+  flex-wrap: wrap;
   
-  padding:25px;
-  display: grid;
-  grid-template-columns: 1fr 1fr ;
-  grid-template-rows: 2;
-  justify-content: center;
-  text-justify: center;
 
-  background-color:transparent;
-  overflow-wrap: wrap; 
+  justify-content: space-evenly;
+  
+  
+  
   font-style: bold;
   font-size: 16px;
   
 
-    width: fit-content;
-    height: fit-content;
     
 }
 
 /*CERTIFICATION PIC*/
 .cert
 {
-  width: 10vw;
-  height: 20vh;
   
+  width: 15vw;
+  height: 20vh;
+  border: solid black 3px;
 }
 
 /*AEW  PIC*/
  .aew
-{  width: 10vw;
-  height: 20vh;
+{   
   
+  width: 15vw;
+  height: 20vh;
+  border: solid black 3px;
 }
 
 /*CALCULATOR PIC*/
  .cal
-{ width: 10vw;
+{  
+  
+  width: 15vw;
   height: 20vh;
+  border: solid black 3px;
+  
   }
  /*card header text and shape*/
 .column 
 {
+    display: flex;
     
-    width: inherit;
-    text-align: center;
+    
+    text-justify: center;
     font-size: 25px;
     cursor: pointer;
     color: white;
