@@ -106,7 +106,7 @@ h3
   max-width: 1600px;
   background-image: url(../img/backart.jpg);
   background-color:black;
-  background-size: 100vw 100vh;
+  background-size: 100vw 100%;
   background-attachment: fixed;
   margin: 0px;    
   
