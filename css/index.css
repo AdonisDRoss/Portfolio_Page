@@ -175,7 +175,7 @@ h3
   
   flex-direction: column;
   flex-wrap: wrap;
-  width: 490px;
+  max-width: 490px;
   margin: 5px;
   
   height: 104vh;
@@ -198,7 +198,7 @@ h3
 {
   display: flex;
 
-  width: inherit;
+  max-width: 490px;
   height: 104vh;
 
   justify-content: space-evenly;
