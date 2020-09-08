@@ -8,8 +8,8 @@ html
 }
 .nav-bar
 {
-    position:fixed;
-    width:100vw ;
+    position:flex;
+    width:100% ;
     height: 85px;
     background-color:rgba(255, 72, 0, 0.973);
     border-color:darkslategray;
@@ -148,9 +148,10 @@ h3
   
   position: center;
   display: flex;
-  
+  width: 600px;
   justify-content: center;
-  
+  width: inherit;
+  height: 100%;
   
 }
 /*CONTENT CARD*/
@@ -159,22 +160,24 @@ h3
     justify-items: stretch;
     position: flex;
     margin: 20px;
-  
-    width: 600px;
+    box-shadow: 10px 10px 10px 10px black;
+    width: 500px;
     background-color:#FFA500 ;
     height:110vh; 
     opacity: 0.8;
-    border: 2px outset black;
+   
     z-index: 2;
 }
 .containerTab{
   
   display: flex;
   background-color:transparent;
-  justify-content: space-around;
+  
   flex-direction: column;
   flex-wrap: wrap;
-  width: inherit;
+  width: 490px;
+  margin: 5px;
+  
   height: 104vh;
 }
 /*Card's Header*/
@@ -201,7 +204,7 @@ h3
   justify-content: space-evenly;
   
   
-  
+  margin-bottom: 100px;
   font-style: bold;
   font-size: 16px;
   
@@ -212,28 +215,28 @@ h3
 /*CERTIFICATION PIC*/
 .cert
 {
-  
+  box-shadow: 5px 5px 5px 5px black;
   width: 15vw;
   height: 20vh;
-  border: solid black 3px;
+
 }
 
 /*AEW  PIC*/
  .aew
 {   
   
-  width: 15vw;
+  width: 14vw;
   height: 20vh;
-  border: solid black 3px;
+  box-shadow: 5px 5px 5px 5px black;
 }
 
 /*CALCULATOR PIC*/
  .cal
 {  
-  
-  width: 15vw;
+ 
+  width: 10vw;
   height: 20vh;
-  border: solid black 3px;
+  box-shadow: 5px 5px 5px 5px black;
   
   }
  /*card header text and shape*/
@@ -302,7 +305,7 @@ input[type=text]{
 } 
 
 .foot{
-   
+  box-shadow: 0px 5px 5px 10px black;
     bottom: 0;
     left: 0;
     position: fixed;
