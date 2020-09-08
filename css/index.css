@@ -94,7 +94,7 @@ h3
   .link-bar i{
     display: inline;
     text-align: right;
-  
+  background-color: transparent;
   }
 
 /* BODY AND BACKGROUND */
@@ -121,6 +121,7 @@ h3
   width: 100%;
   height: 80%;
   overflow: hidden;
+  background-color: transparent;
 }
 .body .clouds img
 {
@@ -212,7 +213,8 @@ h3
     
 }
 
-a:link {
+ .clicks:link
+ {
   
   display: flex;
   
@@ -226,7 +228,7 @@ a:link {
   text-decoration: none;
   border: solid black 2px;
 }
-a:visited {
+.clicks:visited {
   display: flex;
   
   background-color:goldenrod;
@@ -239,7 +241,7 @@ a:visited {
   text-decoration: none;
   border: inset black 2px;
 }
-a:hover {
+.clicks:hover {
   display: flex;
   
   background-color:goldenrod;
@@ -251,10 +253,6 @@ a:hover {
   font-size: large;
   text-decoration: none;
   border: inset black 2px;
-  text-decoration: none;
-}
-a:active {
-  color: orangered;
   text-decoration: none;
 }
 
