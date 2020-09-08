@@ -212,6 +212,52 @@ h3
     
 }
 
+a:link {
+  
+  display: flex;
+  
+  background-color:gold;
+  padding:5px;
+  box-shadow: #000 3px 3px 3px 3px;
+  text-align: center;
+  color: black;
+  font-family: Impact;
+  font-size: large;
+  text-decoration: none;
+  border: solid black 2px;
+}
+a:visited {
+  display: flex;
+  
+  background-color:goldenrod;
+  padding:5px;
+  box-shadow: #000 0px 0px 3px 3px;
+  text-align: center;
+  color: black;
+  font-family: Impact;
+  font-size: large;
+  text-decoration: none;
+  border: inset black 2px;
+}
+a:hover {
+  display: flex;
+  
+  background-color:goldenrod;
+  padding:5px;
+  box-shadow: #000 0px 0px 3px 3px;
+  text-align: center;
+  color: black;
+  font-family: Impact;
+  font-size: large;
+  text-decoration: none;
+  border: inset black 2px;
+  text-decoration: none;
+}
+a:active {
+  color: orangered;
+  text-decoration: none;
+}
+
 /*CERTIFICATION PIC*/
 .cert
 {
