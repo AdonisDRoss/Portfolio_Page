@@ -67,6 +67,8 @@ html
 /*HEADER TEXT*/
 h3
 {
+  
+  
   z-index: 1;
   color:white;
   font-family: 'Trebuchet MS';
@@ -75,6 +77,7 @@ h3
   text-shadow: 3px 3px #000;
   background:color transparent;
   text-indent: .9%;
+  
 }
 /* SOCIAL MEDIA ICONS*/
   i{
@@ -176,23 +179,19 @@ h3
 {
   padding: 0;
   margin: 0;
- 
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   max-width: 490px;
   height:110vh; 
 }
-
-.containerTab{
-  
-  
+/*after tab for card*/
+.containerTab
+{
   background-color:red;
-  
- position:flex;
+  position:flex;
   max-width: 490px;
   margin: 5px;
-  
   height: 104vh;
 }
 /*Card's Header*/
@@ -200,19 +199,17 @@ h3
 {
   display: flex;
   flex-flow:column wrap;
- flex-direction: row;
+  flex-direction: row;
   background-color: orangered;
   justify-content: space-around;
   
   
 }
 
-
+/*link buttons*/
  .clicks:link
  {
-  
   display: flex;
-  
   background-color:gold;
   padding:5px;
   box-shadow: #000 3px 3px 3px 3px;
@@ -223,9 +220,10 @@ h3
   text-decoration: none;
   border: solid black 2px;
 }
-.clicks:visited {
+/*Buttons After Cicks*/
+.clicks:visited
+ {
   display: flex;
-  
   background-color:goldenrod;
   padding:5px;
   box-shadow: #000 0px 0px 3px 3px;
@@ -236,9 +234,9 @@ h3
   text-decoration: none;
   border: inset black 2px;
 }
+/*Hoover for buttons*/
 .clicks:hover {
   display: flex;
-  
   background-color:goldenrod;
   padding:5px;
   box-shadow: #000 0px 0px 3px 3px;
@@ -291,8 +289,6 @@ h3
 .column 
 {
     display: flex;
-    
-    
     text-justify: center;
     font-size: 25px;
     cursor: pointer;
@@ -306,7 +302,8 @@ h3
   }
   
   
-  .row:after {
+  .row:after 
+  {
     content: "";
     display: table;
     clear: both;
@@ -314,20 +311,26 @@ h3
   }
   
 
-  .closebtn {
+  .closebtn 
+  {
+    
     float: right;
     color: red;
     font-size: 35px;
     cursor: pointer;
   }
-form{
+
+/*Email Form*/
+form
+{
   justify-content: left;
   align-content: column;
   max-width: 490px;
   
 }
   
-.mtext{
+.mtext
+{
   height: 20vh;
 }
   
