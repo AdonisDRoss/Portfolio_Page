@@ -203,7 +203,7 @@ h3
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
+  max-width: 490px;
     
 }
 
