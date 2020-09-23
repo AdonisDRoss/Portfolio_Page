@@ -88,13 +88,28 @@
 			<h2>Contact Me</h2>
 			
 		
-			<form>
-				<input placeholder="Enter Your Name" type="textarea" name="name" required>
-				<input placeholder="Enter Your Email" type="textarea" name="subject" required>
-				<input placeholder="Enter Youre Message" type="text" class="mtext" name="email" required>
-				<button class="submit" type="submit">SUBMIT</button>
-			</form>
-		
+			<form
+  action="https://formspree.io/mzbkbygb"
+  method="POST"
+> <label>
+	  Your name:
+    <input type="text" name="_replywho">
+  </label>
+  
+  <label>
+	  Your email:
+    <input type="text" name="_replyto">
+  </label>
+  
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
 				
 		</div>
 		

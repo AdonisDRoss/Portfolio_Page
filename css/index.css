@@ -323,10 +323,16 @@ h3
 /*Email Form*/
 form
 {
-  justify-content: left;
-  align-content: column;
-  max-width: 490px;
-  
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+label{
+  justify-content: space-between;
+  margin-top: 5%;
+  font-size: larger;
 }
   
 .mtext
