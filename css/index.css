@@ -287,8 +287,8 @@ h3
   
   }
 .figuretext{
-
-line-height: 6vh;
+display: flex;
+line-height: fit-content;
 letter-spacing: 2vw;
 justify-content: space-evenly;
 text-align: center;
