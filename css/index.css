@@ -198,7 +198,7 @@ h3
     flex-direction: row;
     flex-flow:wrap;
     justify-content: space-around;
-    max-width: 490px;
+    max-width: 40vw;
   
   }
 /*after tab for card*/
