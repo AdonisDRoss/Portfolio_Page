@@ -184,6 +184,7 @@ h3
   justify-content: space-evenly;
   max-width: 490px;
   height:110vh; 
+  
 }
 /*after tab for card*/
 .containerTab
@@ -293,7 +294,7 @@ justify-content: space-evenly;
 text-align: center;
 text-indent: 3%;
 flex-wrap: wrap;
-
+overflow-y: scroll;
 
   }
  /*card header text and shape*/
