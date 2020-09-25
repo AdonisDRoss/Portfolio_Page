@@ -181,7 +181,8 @@ h3
   margin: 0;
   display: inline-flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-around;
   max-width: 490px;
 
   
