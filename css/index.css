@@ -182,11 +182,13 @@ h3
   display: inline-flex;
   flex-wrap: wrap;
   flex-direction: row;
+  flex-flow:wrap;
   justify-content: space-around;
   max-width: 490px;
 
   
 }
+
 /*after tab for card*/
 .containerTab
 {
