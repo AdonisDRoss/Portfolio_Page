@@ -188,7 +188,14 @@ h3
 
   
 }
-
+@media screen {
+  .figure
+   { 
+     display: flex;
+    flex-flow: wrap; 
+  flex-direction: row;
+  max-width: 490px;
+  }
 /*after tab for card*/
 .containerTab
 {
