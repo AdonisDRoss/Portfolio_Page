@@ -41,18 +41,18 @@ html
   height: 10%;
 }
 #clock{
-  position: left;
-  display:flex;
-   margin-left:45%;
-   margin-top: 3%;
-  background-color: #FFA500;
-  border: solid black 1px;
-  max-width: 10%;
-  box-shadow: 10px 4px 4px;
-  opacity: .5;
-  font-style: italic;
+  
+  display:center;
+  text-align: center;
+   margin-top: 15%;
+
+  
+  max-width: fit-content;
+  -webkit-text-stroke: 1px white;
+  opacity: .7;
+  font-style: Bold;
   font-family: Impact;
-  font-size: 30px;
+  font-size: 40px;
   border-radius: 5%;
 }
 
