@@ -41,14 +41,14 @@ html
   height: 10%;
 }
 #clock{
-  position: center;
-  display:flex;
+  position: flex;
+  display:center;
   text-align: center;
    margin-top: 15%;
 
   
   max-width: fit-content;
-  -webkit-text-stroke: 5px white;
+  -webkit-text-stroke: 3px white;
   opacity: .7;
   font-style: Bold;
   font-family: Impact;
