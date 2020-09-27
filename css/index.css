@@ -52,18 +52,20 @@ html
   
   font-style: Bold;
   font-family: Impact;
-  font-size: 45px;
+  font-size: 60px;
   
 }
 
 .hello{
+ 
   position: flex;
   display:center;
-  margin-left:40%;
+  text-align: center;
   margin-top: 3%;
-  font-size: 30px;
+  font-size: 50px;
   font-family: 'Times New Roman', Times, serif;
 }
+
 /*HTML5 ICON*/
  .fa-html5
 {
@@ -226,6 +228,7 @@ margin-top: 15%;
   justify-content: space-evenly;
   text-align: center;
   text-indent: 3%;
+  overflow-wrap: break-word;
     }
 /*after tab for card*/
 .containerTab
