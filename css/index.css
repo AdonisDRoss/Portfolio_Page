@@ -27,6 +27,7 @@ html
     font-family: Helvetica;
     font-style: bold;
     font-size:relative;
+    
 }
 /*CSS AND HTML ICONS DIV*/
 .logo
@@ -47,7 +48,6 @@ html
    margin-top: 15%;
   color:tomato;
   
-  max-width: fit-content;
   -webkit-text-stroke: 3px black;
   
   font-style: Bold;
@@ -97,7 +97,7 @@ html
 h3
 {
   
-  
+  margin-top:6vh;
   z-index: 1;
   color:white;
   font-family: 'Trebuchet MS';
