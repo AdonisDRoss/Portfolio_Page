@@ -28,11 +28,12 @@ html
     font-style: bold;
     font-size:relative;
     
+    
 }
 /*CSS AND HTML ICONS DIV*/
 .logo
 {-ms-layout-grid: auto auto;
-  margin-top: 32%;
+  margin-top: 22%;
   position:table;
   align-content: row;
   margin-left:15px;
@@ -91,6 +92,17 @@ html
   font-weight: normal;
   text-decoration: inherit;
   color:green;
+  font-size: 80px;  
+  text-shadow: 5px 5px 15px #000;
+  z-index: 1;
+}
+/*JavaScript Icon*/
+.body .fa-js{
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color:yellow;
   font-size: 80px;  
   text-shadow: 5px 5px 15px #000;
   z-index: 1;
