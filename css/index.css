@@ -97,7 +97,7 @@ html
   z-index: 1;
 }
 /*JavaScript Icon*/
-.body .fa-js{
+.body #js{
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
